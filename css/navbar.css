@@ -1,0 +1,46 @@
+header {
+    position: fixed;
+    padding: 0 8% 0 8%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: 3px solid var(--main);
+    border-radius: 0px 0px 0px 0px;
+    background-color: var(--dark);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: var(--light);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+}
+
+.navbar a {
+    text-align: right;
+    text-decoration: none;
+    color: var(--light);
+    margin: 0 25px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+    letter-spacing: 3px;
+    transition: 0.3s;
+    transform: scale(1.0) translateY(0px);
+}
+
+.navbar a:hover {
+    transform: scale(1.21) translateY(-5px);
+    transition: 0.3s;
+}
+
+.menu {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+}
+

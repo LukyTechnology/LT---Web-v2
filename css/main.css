@@ -1,0 +1,15 @@
+:root {
+    --body: #1e1a1a;
+    --light: #FFFFFF;
+    --dark: #000000;
+    --main: #16e7de;
+}
+
+
+body {
+    background-color: #0f0f0f;
+}
+
+section {
+    padding: 0 8%;
+}
