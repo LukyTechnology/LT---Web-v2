@@ -113,6 +113,13 @@
 .ntb img {
     height: 200px;
     margin-left: 20%;
+    transform: scale(1.0) translateY(0px);
+    transition: 0.3s;
+}
+
+.ntb img:hover {
+    transform: scale(1.21) translateY(-5px);
+    transition: 0.3s;
 }
 
 .icons {
@@ -134,6 +141,14 @@
     margin-left: 10px;
 }
 
+.ntb-title {
+    font-size: 16px;
+    color: var(--light);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+
 .monitor {
     display: flex;
 }
@@ -142,6 +157,13 @@
     margin-top: 30px;
     height: 290px;
     margin-left: 20%;
+    transform: scale(1.0) translateY(0px);
+    transition: 0.3s;
+}
+
+.monitor img:hover {
+    transform: scale(1.21) translateY(-5px);
+    transition: 0.3s;
 }
 
 .icons2 {
@@ -159,3 +181,115 @@
     margin-left: 10px;
     margin-top: 95px;
 }
+
+.mnt-title {
+    font-size: 16px;
+    color: var(--light);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 18%;
+    margin-top: 120px;
+}
+
+
+
+.mobile {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--main);
+}
+
+.mobile img {
+    margin-top: 30px;
+    height: 220px;
+    margin-left: 18%;
+    transform: scale(1.0) translateY(-0px);
+    transition: 0.3s;    
+}
+
+.mobile img:hover {
+    transform: scale(1.21) translateY(-5px);
+    transition: 0.3s;
+}
+
+.icons3 {
+    margin-left: 78px;
+    margin-top: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.mb-text {
+    font-size: 16px;
+    color: var(--light);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 65px;
+}
+
+.mb-title {
+    font-size: 16px;
+    color: var(--light);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+
+.others img {
+    margin-top: 50px;
+    height: 150px;
+    transform: scale(1.0) translateY(-0px);
+    transition: 0.3s;   
+    margin-left: 30px; 
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--main);
+}
+
+.others img:hover {
+    transform: scale(1.21) translateY(-5px);
+    transition: 0.3s;
+}
+
+
+.socials h1 {
+    font-family: 'Lato', sans-serif;
+    color: var(--light);
+    font-size: 54px;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.socials p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #beb5b5;
+    text-align: center;
+}
+
+.socials-icon {
+    display: flex;
+    font-size: 64px;
+    justify-content: center;
+    margin-top: 50px;
+    color: var(--light);
+}
+
+ion-icon {
+    margin-left: 40px;
+}
+
+.links {
+    padding-bottom: 50px;
+}
+
+.links a {
+    color: var(--light);
+    transform: scale(1.0) translateY(0px);
+    transition: 0.3s;
+}
+
+.links a:hover {
+    transform: scale(1.21) translateY(-5px);
+    transition: 0.3s;
+} 
+
