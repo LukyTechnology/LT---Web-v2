@@ -6,7 +6,6 @@ header {
     right: 0;
     z-index: 99;
     border-bottom: 3px solid var(--main);
-    border-radius: 0px 0px 0px 0px;
     background-color: var(--dark);
 }
 

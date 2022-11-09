@@ -1,10 +1,11 @@
 .intro {
     padding: 73px 0;
     width: 100%;
-    height: 560px;
-    border-bottom: 3px solid var(--main);
-    border-radius: 0px 0px 0px 0px;
-    background-color: var(--dark);
+    height: 400px;
+}
+
+.introduction {
+    border-bottom: 2px solid var(--main);
 }
 
 .intro h1 {
@@ -29,15 +30,6 @@
     font-size: 24px;
     animation-duration: 2s;
     font-family: 'Josefin Sans', sans-serif;
-}
-
-.intro img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-    margin-left: -8.5%;
-    filter: blur(1.5px) brightness(70%);
 }
 
 .about {
@@ -280,6 +272,7 @@ ion-icon {
 
 .links {
     padding-bottom: 50px;
+    border-bottom: 1px solid var(--main);
 }
 
 .links a {
@@ -293,3 +286,69 @@ ion-icon {
     transition: 0.3s;
 } 
 
+.serv h1 {
+    font-family: 'Lato', sans-serif;
+    color: var(--light);
+    font-size: 54px;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.serv p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #beb5b5;
+    text-align: center;
+}
+
+.serv-icon img {
+    height: 70px;
+    margin-left: 40px;
+}
+
+.serv-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.services a {
+    color: var(--light);
+    transform: scale(1.0) translateY(0px);
+    transition: 0.3s;
+}
+
+.services a:hover {
+    transform: scale(1.21) translateY(-5px);
+    transition: 0.3s;
+} 
+
+.services {
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--main);
+}
+
+.end {
+    align-items: center;
+    padding: 30px 8% 30px 8%;
+    border-bottom: 2px solid var(--main);
+}
+
+.end h1 {
+    font-family: 'Lato', sans-serif;
+    color: var(--light);
+    font-size: 54px;
+    font-weight: 1000;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.end p {
+    color: #beb5b5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 0.6px;
+    line-height: 30px;
+    margin-right: 35%;
+}
