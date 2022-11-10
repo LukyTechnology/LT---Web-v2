@@ -6,6 +6,9 @@
 
 .introduction {
     border-bottom: 2px solid var(--main);
+    background-image: url("/img/intro2.png");
+    background-repeat: no-repeat; 
+    background-position: center;
 }
 
 .intro h1 {
@@ -37,6 +40,16 @@
     padding: 30px 0 30px 0;
 }
 
+.about-next {
+    display: flex;
+}
+
+.about-next img {
+    height: 300px;
+    margin-top: 25%;
+    margin-right: 60%;
+}
+
 .about h1 {
     font-family: 'Lato', sans-serif;
     color: var(--light);
@@ -53,7 +66,7 @@
     font-weight: 550;
     letter-spacing: 0.6px;
     line-height: 30px;
-    margin-right: 35%;
+    margin-right: 15%;
 }
 
 .next-sec {
@@ -78,7 +91,7 @@
 
 .next-img img {
     height: 160px;
-    margin-top: 36%;
+    margin-top: 25%;
     margin-left: 60%;
 }
 
@@ -332,6 +345,14 @@ ion-icon {
     align-items: center;
     padding: 30px 8% 30px 8%;
     border-bottom: 2px solid var(--main);
+    display: flex;
+    justify-content: center;
+}
+
+.end-image img {
+    height: 250px;
+    margin-top: 30%;
+    margin-right: 60%;
 }
 
 .end h1 {
@@ -340,7 +361,7 @@ ion-icon {
     font-size: 54px;
     font-weight: 1000;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 .end p {
@@ -350,5 +371,5 @@ ion-icon {
     font-weight: 550;
     letter-spacing: 0.6px;
     line-height: 30px;
-    margin-right: 35%;
-}
+    margin-right: 10%;
+} 
