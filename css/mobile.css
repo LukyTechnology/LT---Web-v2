@@ -7,29 +7,57 @@
         display: none;
     }
 
-    .intro h1 {
+    .introduction h1 {
         font-size: 40px;
     }
-    .intro p {
+    .introduction p {
         font-size: 16px;
-        margin-top: 210px;
+        margin-top: 320px;
     }
-    .intro {
-        height: 300px;
+    .introduction {
+        height: 600px;
     }
 
-    .about-next {
+
+    .about-one {
         display: block;
     }
-    .about h1 {
+    .about-title h1 {
         text-align: center;
         margin: 10px 0 0 0;
     }
-    .about p {
+    .about-one p {
         text-align: center;
         margin: 20px 0 0 0;
+        box-sizing: unset;
+        width: 100%;
     }
-    .about-next img {
-        margin: 0;
+    .about-one img {
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 50px;
+    }
+
+
+    .about-two {
+        display: block;
+    }
+    .about-two p {
+        text-align: center;
+        margin: 20px 0 0 0;
+        box-sizing: unset;
+        width: 100%;
+    }
+    .minecraft {
+        display: none;
+    }
+    .minecraft-mobile img {
+        margin-top: 60px;
+        display: block;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

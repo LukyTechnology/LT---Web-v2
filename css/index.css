@@ -1,99 +1,132 @@
 .intro {
-    padding: 73px 0;
-    width: 100%;
-    height: 400px;
-}
-
-.introduction {
     border-bottom: 2px solid var(--main);
     background-image: url("/img/intro2.png");
     background-repeat: no-repeat; 
     background-position: center;
 }
 
-.intro h1 {
+.introduction {
+    padding: 73px 0;
+    width: 100%;
+    height: 600px;
+}
+
+.introduction h1 {
     text-align: center;
     color: var(--light);
     position: absolute;
     left: 10%;
     right: 10%;
-    margin-top: 150px;
+    margin-top: 250px;
     font-size: 64px;
     font-family: 'Permanent Marker', cursive;
     animation-duration: 1.7s;
 }
 
-.intro p {
+.introduction p {
     position: absolute;
     color: var(--light);
     text-align: center;
     left: 10%;
     right: 10%;
-    margin-top: 250px;
+    margin-top: 340px;
     font-size: 24px;
     animation-duration: 2s;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.about {
+
+
+
+
+
+
+
+
+
+
+
+.about-first {
+    padding: 30px 10px 30px 10px;
+}
+
+.about-title {
+    width: 100%;
+    text-align: center;
     align-items: center;
-    padding: 30px 0 30px 0;
 }
 
-.about-next {
+.about-one {
     display: flex;
+    justify-content: center;
 }
 
-.about-next img {
-    height: 300px;
-    margin-top: 25%;
-    margin-right: 60%;
+.about-one img {
+    height: 240px;
+    margin-left: 100px;
 }
 
-.about h1 {
+.minecraft-mobile img {
+    display: none;
+}
+
+.about-title h1 {
     font-family: 'Lato', sans-serif;
     color: var(--light);
     font-size: 54px;
     font-weight: 1000;
+}
+
+.about-one p {
+    margin-top: 40px;
+    color: #beb5b5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 0.6px;
+    line-height: 30px; 
     text-align: left;
-    margin-left: 15%;
+    box-sizing: border-box;
+    width: 850px;
 }
 
-.about p {
-    color: #beb5b5;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 550;
-    letter-spacing: 0.6px;
-    line-height: 30px;
-    margin-right: 15%;
-}
-
-.next-sec {
-    display: flex;
+.about-second {
     border-bottom: 1px solid var(--main);
+    padding: 30px 10px 50px 10px;
 }
 
-.next {
+.about-two {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 30px 0 30px 0;
 }
 
-.next p {
+.about-two p {
     color: #beb5b5;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     font-weight: 550;
     letter-spacing: 0.6px;
     line-height: 30px;
-    margin-left: 20%;
+    text-align: right;
+    box-sizing: border-box;
+    width: 850px;
 }
 
-.next-img img {
-    height: 160px;
-    margin-top: 25%;
-    margin-left: 60%;
+.about-two img {
+    height: 170px;
+    margin-right: 100px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 .setup {
