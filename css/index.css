@@ -3,6 +3,7 @@
     background-image: url("/img/intro2.png");
     background-repeat: no-repeat; 
     background-position: center;
+    background-size: 1300px;
 }
 
 .introduction {
@@ -90,6 +91,9 @@
     width: 850px;
 }
 
+
+
+
 .about-second {
     border-bottom: 1px solid var(--main);
     padding: 30px 10px 50px 10px;
@@ -130,6 +134,7 @@
 
 
 .setup {
+    justify-content: center;
     align-items: center;
     padding: 0 0 30px 0;
 }
@@ -139,18 +144,18 @@
     color: var(--light);
     font-size: 54px;
     font-weight: 1000;
-    text-align: right;
-    margin-right: 20%;
+    text-align: center;
     margin-bottom: 50px;
 }
 
 .notebook {
     display: flex;
+    justify-content: center;
 }
 
 .ntb img {
     height: 200px;
-    margin-left: 20%;
+    margin-right: 8%;
     transform: scale(1.0) translateY(0px);
     transition: 0.3s;
 }
@@ -183,18 +188,26 @@
     font-size: 16px;
     color: var(--light);
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 15%;
+    margin-left: 8%;
     margin-top: 40px;
 }
 
+.mobile-setup {
+    display: flex;
+}
+
+
+
+
 .monitor {
     display: flex;
+    justify-content: center;
 }
 
 .monitor img {
     margin-top: 30px;
     height: 290px;
-    margin-left: 20%;
+    margin-right: 8%;
     transform: scale(1.0) translateY(0px);
     transition: 0.3s;
 }
@@ -224,22 +237,24 @@
     font-size: 16px;
     color: var(--light);
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 18%;
+    margin-left: 8%;
     margin-top: 120px;
 }
 
+.mobile-setup2 {
+    display: flex;
+}
 
 
 .mobile {
     display: flex;
-    padding-bottom: 20px;
-    border-bottom: 1px solid var(--main);
+    justify-content: center;
+    padding: 0 8% 20px 8%;
 }
 
 .mobile img {
     margin-top: 30px;
-    height: 220px;
-    margin-left: 18%;
+    height: 170px;
     transform: scale(1.0) translateY(-0px);
     transition: 0.3s;    
 }
@@ -250,7 +265,7 @@
 }
 
 .icons3 {
-    margin-left: 78px;
+    margin-left: 76px;
     margin-top: 80px;
     color: white;
     font-size: 20px;
@@ -269,8 +284,20 @@
     font-size: 16px;
     color: var(--light);
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 15%;
+    margin-left: 8%;
     margin-top: 100px;
+}
+
+.mobile-setup3 {
+    display: flex;
+}
+
+
+
+
+.others {
+    display: flex;
+    justify-content: center;
 }
 
 .others img {
@@ -281,15 +308,27 @@
     margin-left: 30px; 
     padding-bottom: 20px;
     border-bottom: 1px solid var(--main);
+    border-top: 1px solid var(--main);
 }
 
 .others img:hover {
-    transform: scale(1.21) translateY(-5px);
+    transform: scale(1.30) translateY(-5px);
     transition: 0.3s;
+    border: 2px outset var(--main);
+    border-radius: 40px;
 }
 
 
-.socials h1 {
+
+
+
+
+
+
+
+
+
+.socials-text h1 {
     font-family: 'Lato', sans-serif;
     color: var(--light);
     font-size: 54px;
@@ -298,7 +337,7 @@
     margin-bottom: 10px;
 }
 
-.socials p {
+.socials-text p {
     font-family: 'Josefin Sans', sans-serif;
     color: #beb5b5;
     text-align: center;
@@ -332,7 +371,7 @@ ion-icon {
     transition: 0.3s;
 } 
 
-.serv h1 {
+.serv-text h1 {
     font-family: 'Lato', sans-serif;
     color: var(--light);
     font-size: 54px;
@@ -341,7 +380,7 @@ ion-icon {
     margin-bottom: 10px;
 }
 
-.serv p {
+.serv-text p {
     font-family: 'Josefin Sans', sans-serif;
     color: #beb5b5;
     text-align: center;
@@ -383,9 +422,9 @@ ion-icon {
 }
 
 .end-image img {
-    height: 250px;
     margin-top: 30%;
-    margin-right: 60%;
+    height: 240px;
+    margin-left: 100px;
 }
 
 .end h1 {
@@ -393,8 +432,7 @@ ion-icon {
     color: var(--light);
     font-size: 54px;
     font-weight: 1000;
-    text-align: left;
-    margin-left: 25%;
+    text-align: center;
 }
 
 .end p {
@@ -405,4 +443,6 @@ ion-icon {
     letter-spacing: 0.6px;
     line-height: 30px;
     margin-right: 10%;
+    box-sizing: border-box;
+    width: 850px;
 } 
