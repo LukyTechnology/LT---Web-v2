@@ -17,6 +17,9 @@
     .introduction {
         height: 600px;
     }
+    .hamburger {
+        display: block;
+    }
 
 
     .about-one {
@@ -141,6 +144,21 @@
         display: block;
         border-top: 0;
         height: 200px;
+    }
+
+
+
+    .socials-icon {
+        display: inline;
+        justify-content: center;
+    }
+    ion-icon {
+        margin-left: 10px;
+    }
+
+
+    .serv-icon img {
+        margin-left: 20px;
     }
 
 
