@@ -1,0 +1,142 @@
+.services {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(46,47,47,1) 50%, rgba(0,0,0,1) 100%);
+    border-radius: 40px;
+    width: 800px;
+    margin: auto;    
+}
+
+h1 {
+    animation: backInDown;
+    animation-duration: 2s;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-size: 48px;
+    border-bottom: 2px solid var(--main);
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+p {
+    animation: fadeInDown;
+    animation-duration: 3s;
+    color: #beb5b5;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    padding: 10% 0 10% 0;
+}
+
+  .links {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .fiverr {
+    animation: fadeInDown;
+    animation-duration: 3s;
+    color: #FFF;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border-radius: 99px;
+    background-color: #00b22d;
+    padding: 25px 30px;
+    transform: scale(1.0);
+    transition: 1.0s;
+  }
+
+  .polymart {
+    animation: fadeInDown;
+    animation-duration: 3s;
+    color: #FFF;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border-radius: 99px;
+    background-color: #028788;
+    padding: 25px 30px;
+    margin-left: 40px;
+    transform: scale(1.0);
+    transition: 1.0s;
+  }
+
+  .builtbybit {
+    animation: fadeInDown;
+    animation-duration: 3s;
+    color: #FFF;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border-radius: 99px;
+    background-color: #2D87C3;
+    padding: 25px 30px;
+    margin-left: 40px;
+    transform: scale(1.0);
+    transition: 1.0s;
+  }
+
+  .fiverr:hover {
+    transform: scale(1.3);
+    transition: 1.0s;
+  }
+
+  .polymart:hover {
+    transform: scale(1.3);
+    transition: 1.0s;
+  }
+
+  .builtbybit:hover {
+    transform: scale(1.3);
+    transition: 1.0s;
+  }
+
+
+
+
+  @media only screen and (max-width: 896px) {
+    .body {
+        padding: 0 50px;
+    }
+    .services {
+        width: 100%;
+        height: 100%;
+        padding: 0 10px;
+    }
+    .links {
+        display: block;
+    }
+    .fiverr {
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin-top: 50px;
+    }
+    .polymart {
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .builtbybit {
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+  }
