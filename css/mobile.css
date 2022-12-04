@@ -149,7 +149,7 @@
 
 
     .socials-icon {
-        display: inline;
+        display: flex;
         justify-content: center;
     }
     ion-icon {
