@@ -3,9 +3,16 @@
         padding: 0 10%;
     }
 
-    .navbar a {
+    .menu a {
         display: none;
     }
+    .hamburger {
+        padding: 20px 0 20px 0;
+    }
+    .navbar img {
+        height: 60px;
+        width: 70px;
+      }
 
     .introduction h1 {
         font-size: 40px;
